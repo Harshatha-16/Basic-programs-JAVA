@@ -1,0 +1,15 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        float num = sc.nextFloat();
+
+        System.out.printf("%.5f\n", num);   // Rounded to 5 decimal places
+        System.out.printf("%.4f\n", num);   // Rounded to 4 decimal places
+        System.out.printf("%.3f\n", num);   // Rounded to 3 decimal places
+        System.out.printf("%.2f\n", num);   // Rounded to 2 decimal places
+        System.out.printf("%.1f\n", num);   // Rounded to 1 decimal place
+        System.out.printf("%.0f\n", num);      // Integer part only (truncate)
+    }
+}
